@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const stripe = require("stripe")("<secret key>");
+const stripe = require("stripe")("sk_test_51OJgh6SFSm4uxOkd7XjICnqCHC3Kj9N7v0uNTYgeaql2gwgAPpZ27ycCsjExS8T6TtbojUnAIdaiHY6Hx6Qe4o1000ZxxPbRat");
 const bodyParser = require('body-parser');
 const YOUR_DOMAIN = "http://localhost:8000";
 
